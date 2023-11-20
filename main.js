@@ -10,7 +10,7 @@ function irParaIndex() {
 }
 
 function irParaIndex() {
-    window.location.href = 'https://github.com/Otaviomm/Avalia-o3.git';
+    window.location.href = 'https://otaviomm.github.io/Avalia-o3/';
 }
 const tbody = document.querySelector('#dados');
 const url = 'https://teste-d1f43-default-rtdb.firebaseio.com/'
