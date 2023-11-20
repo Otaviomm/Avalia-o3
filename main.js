@@ -1,10 +1,16 @@
 const conteudo = document.querySelector('#conteudo');
 function menu(link){
-    
    fetch('pages/' + link + '.html')
    .then(response => response.text())
    .then(html => conteudo.innerHTML = html)
    .catch(error => console.innerHTML = 'Página não encontrada');
+}
+function irParaIndex() {
+    menu('index');
+}
+
+function irParaIndex() {
+    window.location.href = 'https://github.com/Otaviomm/Avalia-o3.git';
 }
 const tbody = document.querySelector('#dados');
 const url = 'https://teste-d1f43-default-rtdb.firebaseio.com/'
